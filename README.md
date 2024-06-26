@@ -1,17 +1,26 @@
 # Covid_19 Analysis
 
 ## Table of Contents
+---
 
-*[project Overview](#project-overview)
-*[Data Sources](#data-sources)
-*[Tools](#tools)
-*[Data Cleaning/prep](#data-cleaning/prep)
-*[Exploratory Data Analysis](#exploratory-data-analysis)
-*[Data Analysis](#data-analysis)
-*[Results/Findings](#results/findings)
-*[Recommendation](#recommendation)
+-[project Overview](#project-overview)
+
+-[Data Sources](#data-sources)
+
+-[Tools](#tools)
+
+-[Data Cleaning/prep](#data-cleaning/prep)
+
+-[Exploratory Data Analysis](#exploratory-data-analysis)
+
+-[Data Analysis](#data-analysis)
+
+-[Results/Findings](#results/findings)
+
+-[Recommendation](#recommendation)
 
 ## Project Overview
+---
 
 A new coronavirus designated 2019-nCoV was first identified in Wuhan, the capital of China's Hubei province. People developeed pneumonia without a clear cause and for which existing vaccines or treatments were not effective. The virus has shown evidence of human-to-human transmission. Transmission rate (rate of infection) appeared to escalate in mid January 2020. As of 30 January 2020, approximately 8,243 cases have been confirmed.
 
@@ -31,6 +40,7 @@ Afterwhich, we went on to load the clean dataset into Power BI dashboard, where 
 -Power BI(for both cleaning and report creation) [Download here](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop)
 
 ### Data Cleaning/Prep
+---
 
 * Data loading into power query editor
 * carrying out some DAX expressions
@@ -38,6 +48,7 @@ Afterwhich, we went on to load the clean dataset into Power BI dashboard, where 
 * Creating of measures
 
 ### Exploratory Data Analysis
+---
 
  * What age group took the vaccine
  * What population had a status (either boosted or vaccinated)
@@ -47,6 +58,7 @@ Afterwhich, we went on to load the clean dataset into Power BI dashboard, where 
 
 
  ### Data Analysis
+ ---
 
  ```PowerBI
 Vaccination Coverage = DIVIDE([Population Vaccinated] + [Population Boosted],[Total Population])
@@ -75,3 +87,9 @@ The Analysis results are summarized as follows:
 
 * I had to set all the null values under death, hospitalization and cases to zero because removing them from the dataset will affect other columns which will make the analysis imcomplete.
 * Also, some columns such as Age adjusted vaccination rate and ratio, and Age adjusted boosted rate and ratio where removed due to much empty cells, and its irrelevant
+
+
+💻
+🥇
+
+{
