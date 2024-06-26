@@ -14,7 +14,7 @@
 
 A new coronavirus designated 2019-nCoV was first identified in Wuhan, the capital of China's Hubei province. People developeed pneumonia without a clear cause and for which existing vaccines or treatments were not effective. The virus has shown evidence of human-to-human transmission. Transmission rate (rate of infection) appeared to escalate in mid January 2020. As of 30 January 2020, approximately 8,243 cases have been confirmed.
 
- ![Covid_19P](https://github.com/Nkeeydata/Covid_19-Analysis/assets/173773754/b719fa87-ee4e-45bb-b8af-390ab99c8d13)
+ <[Covid_19P](https://github.com/Nkeeydata/Covid_19-Analysis/assets/173773754/b719fa87-ee4e-45bb-b8af-390ab99c8d13>
 
  
 
